@@ -282,7 +282,7 @@ avro官网的解释
 ```json
 {"type":"record",#avro schema中的一种类型，这里对应一个类，record
   "name":"AvroData",#类名
-  "namespace":"cn.shihuo.avro",#包名，可以没有，但是最好写上写准确
+  "namespace":"cn.apaxyx.avro",#包名，可以没有，但是最好写上写准确
   "fields":[#字段详细信息
     {"name":"id","type":"string"},#指定一个String source;
     {"name":"name","type":["null","string"]}#指定一个String name;且可以为空，注意null要写在前面
